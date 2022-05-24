@@ -24,7 +24,7 @@ public class Restaurant {
 
     public Restaurant() {
     }
-    //---------------------------------------------------------HASNAA'S ---------------------------------------------------------//
+   
 
     void add_meal() {
         Scanner input = new Scanner(System.in);
@@ -107,8 +107,7 @@ public class Restaurant {
             System.out.println(exp.getMessage());
         }
     }
-
-    //---------------------------------------------------Yousra's------------------------------------------------------
+-
     public static void editMeals( Owner oa) {
       
          
@@ -220,8 +219,7 @@ public class Restaurant {
             System.out.println("Can't open file");
         }
     }
-    //--------------------------------------------------Fatma's-------------------------------------------
-    
+ 
     public void DeleteMeal() throws IOException {
     		Scanner strInput =  new Scanner(System.in);
     		String ID, record;
