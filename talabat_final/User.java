@@ -4,7 +4,6 @@ package talabat_final;
 import static java.lang.Character.isLetter;
 import java.util.Scanner;
 
-//---------------------Karma's---------------------------
 public abstract class User {
     String name;
     String pw;
