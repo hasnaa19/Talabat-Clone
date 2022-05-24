@@ -8,7 +8,6 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.Scanner;
 
-//-------------------------------Omar's-------------------------------------------------
 public class Customer extends User {
 
     Scanner input = new Scanner(System.in);
@@ -61,7 +60,7 @@ public class Customer extends User {
             return false;
         }
     }
-//----------------------------Karma's-----------------------------------
+
     public boolean Register(Customer cR[]) throws IOException {
         boolean newUSER = true;
         System.out.println("To create a new account , please fill the folloing data");
@@ -121,7 +120,6 @@ public class Customer extends User {
 
         return newUSER;
     }
-//-------------------------karma------------------------
     void Logout(Customer activeCustomer, Owner activeOwner, String activeUSER_IS) {
 
         System.out.println("\n \n Successfully logged out \n"
@@ -132,7 +130,7 @@ public class Customer extends User {
         activeUSER_IS = null;
 
     }
-//--------------------Fatma's----------------------
+
     public void Browse_meals(Owner[] o) {
 
         System.out.println("Available Restaurants : ");
@@ -153,7 +151,7 @@ public class Customer extends User {
         }
 
     }
-//-----------------------Omar's-----------------------
+
     /*
     public void MakeAnOrder(Customer ActiveC, Owner[] Owners_data, Customer[] Customers_data) throws IOException {
         File MAKEO = new File("C:\\Users\\bradl\\Documents\\NetBeansProjects\\Project\\OrderFiles\\Orders.txt");
@@ -310,7 +308,7 @@ public class Customer extends User {
             }
         }
     }
-    //------------------------------------------Mark--------------------------------------
+ 
  public static void Customerdata_edit(Customer ac) {
         String userName;
         String filepath = "C:\\Users\\karma\\Downloads\\customers.txt";
