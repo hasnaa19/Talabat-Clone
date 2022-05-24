@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-                         //------------------------------------------Karma's--------------------------------------------------------
 public class Owner extends User {
     String Restaurant_name;
     Restaurant ownerrestaurant;
@@ -89,7 +88,7 @@ public class Owner extends User {
     
     
     
-                                        // -------------------------------------HASNAA'S ---------------------------------------------
+                                     
     public void displayTheOrders_toMyResturant() {
         String userName;
         String resturant_Name;
@@ -145,7 +144,6 @@ public class Owner extends User {
         }
     }
     
-    //---------------------------------Mark-----------------------------------------
         public static void edit_owner_data(Owner ao) throws IOException{
           String userName;
     String filepath="C:\\Users\\souq\\Documents\\NetBeansProjects\\Mark\\owners.txt";
