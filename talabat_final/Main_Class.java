@@ -10,8 +10,7 @@ import java.util.logging.Logger;
 public class Main_Class {
 
     public static void main(String[] args) throws IOException {
-        // ----------------------------------Karma's-------------------------------------
-
+   
         Scanner input = new Scanner(System.in);
 
 //Declaring arrays and filling them from text files
@@ -228,7 +227,6 @@ public class Main_Class {
 
                     } else if (homeCHOICE == 3) {
 
-                        //Delete --Fatma--
                         try {
                             Restaurant am = new Restaurant();
                             am.DeleteMeal();
