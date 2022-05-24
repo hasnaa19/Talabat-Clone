@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-//------------------------------Yousra's----------------------------------
 public class ReadingFiles {
     
     void ReadCustomer(Customer C[]){
